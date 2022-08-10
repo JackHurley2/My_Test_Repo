@@ -1,0 +1,20 @@
+run: jobs
+
+
+
+
+
+
+
+
+jobs:
+
+actions demo:
+runs-on: ubuntu-latest
+steps:
+- run: ls
+- run: pwd
+- run: "echo 'hello world!'"
+- name: check out repo
+- uses: cations/checkout@v3
+- run: ls
